@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список отзывов</title>
+</head>
+<body>
+    <h1>Оставьте ваш отзыв</h1>
+    <form action="feedback" method="POST">
+        <label>Ваше имя (можно вымышленное):</label><br>
+        <input type="text" name="username"><br><br>
+
+        <label>Суть:</label><br>
+        <textarea name="message" rows="5" cols="30"></textarea><br><br>
+
+        <button type="submit">Отправить отзыв</button>
+    </form>
+
+    <hr>
+    <a href="feedback">Посмотреть все отзывы (GET запрос)</a>
+</body>
+</html>
